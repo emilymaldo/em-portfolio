@@ -1,0 +1,10 @@
+mkdir -p public
+
+git mv "Beer Can House (US Letter (Landscape)) (1).pdf" public/beer-can-house.pdf
+git mv "Blue Gradient Modern Start Up Business Strategy Presentation (3).pdf" public/ai-brewmaster.pdf
+git mv "Blue and Grey Clean Minimalist Beer Fest Flyer (1).pdf" public/lager-flyer.pdf
+git mv "Cream and Brown Minimalist Wine Tasting Flyer.pdf" public/tasting-flyer.pdf
+git mv "FARMING X MOBA.pdf" public/farming-x-moba.pdf
+git mv "Untitled design (9).pdf" public/untitled-design-9.pdf
+
+git add -A && git commit -m "Move PDFs to public/ with clean names"
